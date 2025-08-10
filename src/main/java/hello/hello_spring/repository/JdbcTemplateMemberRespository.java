@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+@Repository
 public class JdbcTemplateMemberRespository implements MemberRepository{
     private final JdbcTemplate jdbcTemplate;
 
